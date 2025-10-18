@@ -13,17 +13,17 @@ app.use(
     origin:[process.env.FRONTEND_URL],
     methods: ["POST"],
     credentials: true,
-});
+})
 
 );
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.get("/v",(req,res) =>{
+app.get("/",(req,res) =>{
     res.json({
-        success: true;
-        message: "Welcome to my website";
+        success: true,
+        message: "Welcome to my website",
     });
 });
 
