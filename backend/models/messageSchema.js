@@ -5,21 +5,21 @@ const messageSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true,"name required"],
-        minlength: [3,"must contain atleast 3 characters"]
+        minlength: [3, "must contain atleast 3 characters"]
     },
     email: {
         type: String,
-        required: [true,"emaiil required"],
+        required: [true,"email required"],
         validate: [validator.isEmail, "please provide valid email"]
     },
     subject: {
         type: String,
         required: [true,"subject required"],
-        minlength: [3,"must contain atleast 5 characters"]
+        minlength: [3, "must contain atleast 5 characters"]
     },
     message: {
         type: String,
-        required: [true,"name required"],
+        required: [true,"message required"],
         minlength: [10, "must contain atleast 10 characters"]
     }
 });
