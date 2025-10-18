@@ -32,7 +32,7 @@ export const sendMessage = async (req, res) => {
       data: savedMessage, // optional: return saved data
     });
   } catch (error) {
-    if(error.name ==="validationError"){
+    if(error.name ==="ValidationError"){
       let errorMessage = "";
       if(error.errors.name){
         errorMessage = error.errors.name.message + " "
