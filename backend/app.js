@@ -17,6 +17,7 @@ app.use(
 
 );
 
+<<<<<<< HEAD
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
@@ -27,6 +28,12 @@ app.get("/",(req,res) =>{
     });
 });
 
+=======
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+
+>>>>>>> 77cded13e30f32436255671c0580d59ba862b60c
 app.use("/api/v1/message",messageRouter);
 
 dbConnection();
