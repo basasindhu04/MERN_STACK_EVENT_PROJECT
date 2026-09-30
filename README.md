@@ -1,117 +1,102 @@
-KING's --- Events & Weddings Website
+# KING's — Events & Weddings Website
 
-A modern, elegant event and wedding website designed to showcase
-services, introduce the brand, and provide visitors with an easy way to
-get in touch.
+A modern and elegant event and wedding website designed to showcase services, introduce the brand, and provide visitors with an easy way to get in touch.
 
-📸 Project Preview
+## 📸 Project Overview
 
-The website includes:
+KING's is a visually appealing event and wedding website featuring a clean layout, elegant typography, large background imagery, contact information, Google Maps integration, and an enquiry form.
 
-A clean navigation bar with Home, Services, About, and Contact
+The website focuses on providing a premium and professional experience for customers looking for event and wedding-related services.
 
-A large hero section with a restaurant/event-themed background
+## ✨ Features
 
-A prominent Book Now call-to-action
+- 🏠 Attractive Home/Landing Page
+- 💍 Events & Weddings themed design
+- 📋 Services section
+- ℹ️ About section
+- 📍 Google Maps integration
+- 📞 Contact information
+- 📝 Customer enquiry/contact form
+- 📧 Newsletter subscription
+- 🎨 Elegant cream, black, and gold color theme
+- 📱 Responsive website design
+- 🔗 Navigation between Home, Services, About, and Contact sections
 
-An About section describing the business
+## 🏠 Home Section
 
-Contact information cards for Address, Phone, and Email
+The home page contains:
 
-An embedded Google Maps location
+- KING's branding
+- Navigation menu
+- Large hero background image
+- "Your Personal Dream Maker" heading
+- Short business description
+- "BOOK NOW" call-to-action button
 
-A contact form with Name, E-mail, Subject, and Message
+## 💼 Services
 
-A newsletter subscription section
+The Services section is designed to showcase the different event and wedding services provided by KING's.
 
-A dark footer with branding and event/wedding details
+It provides visitors with an organized way to understand the services offered by the business.
 
-✨ Features
+## ℹ️ About Section
 
-Home
+The About section introduces the business and provides basic information about KING's.
 
-Brand-focused landing section
+It also contains contact details such as:
 
-Large background image
+- 📍 Address
+- 📞 Phone number
+- 📧 Email address
 
-"Your Personal Dream Maker" headline
+## 📞 Contact Section
 
-Book Now button
+The Contact section allows customers to send enquiries.
 
-Services
+It contains:
 
-Dedicated navigation section for showcasing event-related services
+- Name field
+- E-mail field
+- Subject field
+- Message field
+- Send button
 
-Designed to present services in a visually attractive way
+The section also includes an embedded Google Maps location to help customers find the business.
 
-About
+## 📧 Newsletter
 
-Business introduction section
+A newsletter subscription section is included in the footer.
 
-Contact details displayed in separate cards
+Visitors can enter their email address and subscribe to receive news and updates.
 
-Clean typography and spacious layout
+## 🎨 UI & Design
 
-Contact
+The website uses an elegant and premium visual style suitable for events and weddings.
 
-Embedded Google Maps location
+### Design elements
 
-Contact form for customer enquiries
+- Cream/off-white background
+- Black footer
+- Gold/brown accent colors
+- Decorative script typography
+- Large background photography
+- Clean navigation
+- Spacious layouts
+- Card-based contact information
+- Simple and readable forms
 
-Fields for:
+## 🛠️ Technologies Used
 
-Name
+- HTML5
+- CSS3
+- JavaScript
+- Google Maps
+- Responsive Web Design
 
-E-mail
+## 📁 Project Structure
 
-Subject
-
-Message
-
-Send button
-
-Newsletter
-
-Email subscription field
-
-Subscribe button
-
-Updates/news section in the footer
-
-🎨 Design
-
-The website follows an elegant event/wedding theme using:
-
-Cream/off-white backgrounds
-
-Black typography and footer
-
-Gold/brown accent colors
-
-Script-style decorative headings
-
-Large photography
-
-Spacious sections and clean layouts
-
-🛠️ Technologies
-
-Update this section according to the technologies used in your
-implementation.
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Google Maps Embed/API
-
-Responsive Web Design
-
-📁 Suggested Project Structure
-
-kings-events/
+```text
+KINGs-Events/
 │
 ├── index.html
 ├── about.html
@@ -128,76 +113,3 @@ kings-events/
 │   └── ...
 │
 └── README.md
-
-🚀 Getting Started
-
-1. Clone the repository
-
-git clone <your-repository-url>
-
-2. Open the project
-
-Navigate to the project folder:
-
-cd kings-events
-
-3. Run the website
-
-If the project is a static website, open index.html directly in a
-browser.
-
-For a better development experience, use VS Code with the Live
-Server extension or any local development server.
-
-📍 Contact Section
-
-The contact page combines a map and enquiry form so visitors can:
-
-View the business location
-
-Find contact information
-
-Enter their details
-
-Submit an enquiry
-
-📱 Responsive Design
-
-The layout can be adapted for:
-
-Desktop
-
-Tablet
-
-Mobile devices
-
-Make sure media queries are included in the CSS if responsive behavior
-is part of your implementation.
-
-🔮 Future Improvements
-
-Add real booking functionality
-
-Connect the contact form to a backend/email service
-
-Add form validation
-
-Add an image gallery
-
-Add individual service pages
-
-Add customer testimonials
-
-Add online event booking
-
-Add newsletter backend integration
-
-Improve accessibility and SEO
-
-Add animations and interactive UI elements
-
-👩‍💻 Author
-
-Basa Sindhu Latha
-
-Computer Science Undergraduate | Java | DSA | Web Development
