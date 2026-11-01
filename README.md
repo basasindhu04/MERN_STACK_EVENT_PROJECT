@@ -1,4 +1,4 @@
-# KING's — Events & Weddings Website
+#  Events & Weddings Website
 
 A modern and elegant event and wedding website designed to showcase services, introduce the brand, and provide visitors with an easy way to get in touch.
 
